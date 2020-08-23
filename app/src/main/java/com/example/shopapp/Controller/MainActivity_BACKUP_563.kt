@@ -4,11 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
- 
+<<<<<<< HEAD
 import android.widget.Toast
-
+=======
 import androidx.recyclerview.widget.LinearLayoutManager
-
+>>>>>>> 68454d3fb0adda9228b674eb35d00397739d161f
 import com.example.shopapp.Adapters.CategoryAdapter
 import com.example.shopapp.Adapters.CategoryRecyclerAdapter
 import com.example.shopapp.Model.Category
@@ -30,10 +30,11 @@ class MainActivity : AppCompatActivity() {
         }
         categoryListView.adapter = adapter
 
-
-
-	val layoutManager = LinearLayoutManager(this)
+<<<<<<< HEAD
+=======
+        val layoutManager = LinearLayoutManager(this)
         categoryListView.layoutManager =layoutManager
         categoryListView.setHasFixedSize(true)
+>>>>>>> 68454d3fb0adda9228b674eb35d00397739d161f
     }
 }
